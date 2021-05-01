@@ -1,5 +1,6 @@
 package com.example.programers
 class Solution {
+    //a~b사이의 수의 총합
     fun main(){
         print(solution(a = readLine()!!.toInt(),b = readLine()!!.toInt()))
     }
