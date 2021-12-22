@@ -3,7 +3,7 @@ package com.example.programers
 //2016년 요일 구하기
 
 fun main(){
-    print(solution(5,24))
+    print(solution(8,31))
 }
 
 fun solution(a: Int, b: Int): String {
