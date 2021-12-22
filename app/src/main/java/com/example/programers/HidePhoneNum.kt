@@ -10,6 +10,7 @@ fun main(){
 
 fun solution(phone_number: String): String {
     var answer = ""
+    
     //폰번호를 StringBuilder 형식으로 변환
     var temp : StringBuilder = StringBuilder(phone_number)
 
