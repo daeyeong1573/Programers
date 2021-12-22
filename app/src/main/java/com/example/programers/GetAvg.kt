@@ -3,7 +3,7 @@ package com.example.programers
 //배열의 평균값 구하기
 
 fun main(){
-    val test = IntArray(5)
+    val test = IntArray(8)
     for (i in test.indices){
         test[i] = 5
     }
