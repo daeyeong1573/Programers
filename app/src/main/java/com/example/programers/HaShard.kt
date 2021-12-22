@@ -25,7 +25,7 @@ fun solution(x: Int): Boolean {
     return answer
 }
 
-//다른 사람의 풀이
+// 다른 사람의 풀이
 fun solution2(x: Int): Boolean {
     return x % x.toString().fold(0){acc, c -> acc + c.toInt() - 48} == 0
 }
